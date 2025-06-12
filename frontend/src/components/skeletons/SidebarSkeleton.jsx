@@ -16,7 +16,7 @@ const SidebarSkeleton = () => {
           <span className="font-medium hidden lg:block">Contacts</span>
         </div>
       </div>
-
+ 
       {/* Skeleton Contacts */}
       <div className="overflow-y-auto w-full py-3">
         {skeletonContacts.map((_, idx) => (
